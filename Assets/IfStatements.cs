@@ -16,7 +16,7 @@ public class IfStatements : MonoBehaviour {
 			TempTest();
 
 		officeTemp -= Time.deltaTime * 5f;
-
+		//Debug.Log (officeTemp);
 	}
 
 
