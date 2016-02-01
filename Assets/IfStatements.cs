@@ -1,42 +1,45 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class IfStatements : MonoBehaviour {
 	//These are my variviables 
-	float officeHotTemp = 45.03f;
-	float officeColdTemp = 20.4f;
-	float officeRoomTemp = 60.03f;
+	float officeHotTemp = 45.00f;
+	float officeColdTemp = 20.00f;
+	float officeTemp = 60.03f;
+
 
 
 	// Use this for initialization
 	void Update ()
 	{
 		if(Input.GetKeyDown(KeyCode.Space))
-			TemperatureTest();
+			TempTest();
 
-		coffeeTemperature -= Time.deltaTime * 5f;
+		officeTemp -= Time.deltaTime * 5f;
+
 	}
 
 
 	void TempTest ()
 	{
-		// If the coffee's temperature is greater than the hottest drinking temperature...
-		if(coffeeTemperature > hotLimitTemperature)
+		
+		// if the office is hotter than it should be
+		if(officeTemp > officeHotTemp)
 		{
-			// ... do this.
-			print("Coffee is too hot.");
+			
+			print("This Office is too dang hot!");
 		}
-		// If it isn't, but the coffee temperature is less than the coldest drinking temperature...
-		else if(coffeeTemperature < coldLimitTemperature)
+		// If it's colder than ice
+		else if(officeTemp < officeColdTemp)
 		{
-			// ... do this.
-			print("Coffee is too cold.");
+			
+			print("EEk! who turned on the A/C?!?!  Guys it's winter right now...");
 		}
-		// If it is neither of those then...
+		//  and for the last one
 		else
 		{
-			// ... do this.
-			print("Coffee is just right.");
+			
+			print("The office temp is just fine");
 		}
 	}
 }
