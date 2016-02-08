@@ -3,13 +3,15 @@ using System.Collections;
 
 public class whileLoopsed : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	int donutsinthebox = 12;
+
+
+	void Start ()
+	{
+		while(donutsinthebox > 0)
+		{
+			Debug.Log ("I've eaten a donut!");
+			donutsinthebox--;
+		}
 	}
 }

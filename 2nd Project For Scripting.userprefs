@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\loopers.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\forEachLoopsed.cs">
     <Files>
-      <File FileName="..\Class for scripting\Assets\conventionsandsyntaxpassoff.cs" Line="18" Column="5" />
-      <File FileName="Assets\IfStatements.cs" Line="18" Column="37" />
-      <File FileName="Assets\loopers.cs" Line="21" Column="1" />
-      <File FileName="Assets\AllLoops.cs" Line="32" Column="4" />
-      <File FileName="Assets\whileLoopsed.cs" Line="6" Column="21" />
+      <File FileName="Assets\whileLoopsed.cs" Line="10" Column="3" />
+      <File FileName="..\Class for scripting\Assets\conventionsandsyntaxpassoff.cs" Line="1" Column="1" />
+      <File FileName="Assets\IfStatements.cs" Line="1" Column="1" />
+      <File FileName="Assets\loopers.cs" Line="1" Column="1" />
+      <File FileName="Assets\AllLoops.cs" Line="1" Column="1" />
+      <File FileName="Assets\dowhileloopsed.cs" Line="3" Column="1" />
+      <File FileName="Assets\forEachLoopsed.cs" Line="21" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

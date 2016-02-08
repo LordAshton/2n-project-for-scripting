@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\AllLoops.cs" />
      <Compile Include="Assets\IfStatements.cs" />
+     <Compile Include="Assets\dowhileloopsed.cs" />
+     <Compile Include="Assets\forEachLoopsed.cs" />
      <Compile Include="Assets\loopers.cs" />
      <Compile Include="Assets\whileLoopsed.cs" />
  <Reference Include="UnityEngine.UI">
