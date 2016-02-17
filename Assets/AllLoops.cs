@@ -26,13 +26,13 @@ public class AllLoops : MonoBehaviour {
 	{
 
 		// for loop
-		if(variable > forLoops)
+		if(variable == forLoops)
 		{
 
 
 		}
 		// while loops
-		else if(variable < whileLoops)
+		else if(variable == whileLoops)
 		{
 
 
