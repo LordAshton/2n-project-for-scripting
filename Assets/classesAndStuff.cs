@@ -3,19 +3,19 @@ using System.Collections;
 
 public class classesAndStuff : MonoBehaviour
 {
-	public int apples;
-	public int bananas;
+	public int coke;
+	public int pepsi;
 
 
 	private int stapler;
 	private int sellotape;
 
 
-	public void FruitMachine (int a, int b)
+	public void DrinkMachine (int a, int b)
 	{
 		int answer;
 		answer = a + b;
-		Debug.Log("Fruit total: " + answer);
+		Debug.Log("Drink total: " + answer);
 	}
 
 
