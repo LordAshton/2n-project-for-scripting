@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AllLoops.cs" />
+     <Compile Include="Assets\Arrayss.cs" />
      <Compile Include="Assets\DataTypesStuff.cs" />
      <Compile Include="Assets\IfStatements.cs" />
      <Compile Include="Assets\classesAndStuff.cs" />
