@@ -48,6 +48,8 @@
      <Compile Include="Assets\AllLoops.cs" />
      <Compile Include="Assets\Arrayss.cs" />
      <Compile Include="Assets\DataTypesStuff.cs" />
+     <Compile Include="Assets\Datastypes.cs" />
+     <Compile Include="Assets\Enumberationss.cs" />
      <Compile Include="Assets\IfStatements.cs" />
      <Compile Include="Assets\classesAndStuff.cs" />
      <Compile Include="Assets\dowhileloopsed.cs" />
@@ -55,6 +57,7 @@
      <Compile Include="Assets\loopers.cs" />
      <Compile Include="Assets\scopeAndStuff.cs" />
      <Compile Include="Assets\whileLoopsed.cs" />
+     <Compile Include="Assets\yeper.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
